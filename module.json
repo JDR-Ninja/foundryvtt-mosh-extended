@@ -1,0 +1,73 @@
+{
+  "id": "mosh-extended",
+  "title": "Mothership RPG Extended",
+  "description": "More options",
+  "authors": [
+    {
+      "name": "JdR Ninja",
+      "url": "https://www.jdr.ninja/",
+      "discord": "JDR.Ninja#1552"
+    }
+  ],
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291",
+    "maximum": "10"
+  },
+  "packs": [
+    {
+      "label": "Mothership Conditions",
+      "type": "Item",
+      "name": "mosh-extended-conditions",
+      "path": "packs/mosh-extended-conditions.db"
+    },
+    {
+      "label": "Mothership RollTables",
+      "type": "RollTable",
+      "name": "mosh-extended-rolltables",
+      "path": "packs/mosh-extended-rolltables.db"
+    },
+    {
+      "label": "Mothership Items",
+      "type": "Item",
+      "name": "mosh-extended-items",
+      "path": "packs/mosh-extended-items.db"
+    },
+    {
+      "label": "Mothership Weapons",
+      "type": "Item",
+      "name": "mosh-weapons",
+      "path": "packs/mosh-extended-weapons.db"
+    },
+    {
+      "label": "Mothership Skills",
+      "type": "Item",
+      "name": "mosh-skills",
+      "path": "packs/mosh-extended-skills.db"
+    },
+    {
+      "label": "Mothership Armors",
+      "type": "Item",
+      "name": "mosh-armors",
+      "path": "packs/mosh-extended-armors.db"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "mosh",
+        "compatibility": { "verified": "0.3.4" }
+      }
+    ],
+    "requires": [
+      {
+        "id": "mosh",
+        "type": "system"
+      }
+    ]
+  },
+  "url": "https://github.com/JDR-Ninja/foundryvtt-mosh-extended",
+  "download": "https://github.com/JDR-Ninja/foundryvtt-mosh-extended/releases/download/0.1.0/module.zip",
+  "manifest": "https://github.com/JDR-Ninja/foundryvtt-mosh-extended/releases/latest/download/module.json"
+}
